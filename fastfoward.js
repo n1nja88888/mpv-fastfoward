@@ -1,5 +1,5 @@
 'use strict'
-var speed = -1, timer = null, isRepeated = false
+var speed = -1, isRepeated = false
 mp.add_key_binding('right', null, function(event) {
     var type = event.event
     if (type == 'down')
